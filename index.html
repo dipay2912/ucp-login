@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Register UCP SAMP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form class="register-form" action="register.php" method="POST" id="registerForm">
+      <h2>Register Akun</h2>
+
+      <label for="username">Username</label>
+      <input type="text" name="username" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" name="password" required>
+
+      <label for="confirm">Konfirmasi Password</label>
+      <input type="password" name="confirm" required>
+
+      <button type="submit">Daftar</button>
+    </form>
+  </div>
+
+  <script src="js/validation.js"></script>
+</body>
+</html>
